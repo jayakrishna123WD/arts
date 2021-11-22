@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+/*mobile ki */
+@media screen and (max-width: 1024px){
+    .head{
+        text-align: center;
+        height: 60vh;
+        width: 60vw;
+        background-color: #700b97;
+        margin: auto;
+        margin-top: 4%;
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 30px #c24af1;
+    }
+    #logo sub{
+        font-size: 2.5em;
+        font-family: 'Kaushan Script', cursive;
+        margin-left: 1.5%;
+    }
+    #logo span{
+        font-size: 4em;
+        text-shadow: 0 0 6px white;
+        font-family: 'Comfortaa', cursive;
+    }
+    #logo{
+        padding-top: 15%;
+    }
+    .sect .btn{
+        margin: 1em 0 1em 28em;
+        padding: 10px;
+    }
+    #design{
+        margin-top: 6%;
+        text-shadow: 0px 30px 1px #d192eb;
+        transform: skew(20deg);
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+}
+@media screen and (max-width: 2560px){
+    .head{
+        text-align: center;
+        height: 60vh;
+        width: 60vw;
+        background-color: #700b97;
+        margin: auto;
+        margin-top: 4%;
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 30px #c24af1;
+    }
+    #logo sub{
+        font-size: 2.5em;
+        font-family: 'Kaushan Script', cursive;
+        margin-left: 1.5%;
+    }
+    #logo span{
+        font-size: 4em;
+        text-shadow: 0 0 6px white;
+        font-family: 'Comfortaa', cursive;
+    }
+    #logo{
+        padding-top: 15%;
+    }
+    .sect .btn{
+        margin: 2em 28em 0 28em;
+        padding: 10px;
+    }
+    #design{
+        margin-top: 6%;
+        text-shadow: 0px 30px 1px #d192eb;
+        transform: skew(20deg);
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+}
+@media screen and (max-width: 770px){
+    .head{
+        text-align: center;
+        height: 60vh;
+        width: 60vw;
+        background-color: #700b97;
+        margin: auto;
+        margin-top: 4%;
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 30px #c24af1;
+    }
+    #logo sub{
+        font-size: 1.5em;
+        font-family: 'Kaushan Script', cursive;
+        margin-left: 1%;
+    }
+    #logo span{
+        font-size: 3em;
+        text-shadow: 0 0 6px white;
+        font-family: 'Comfortaa', cursive;
+    }
+    #logo{
+        padding-top: 15%;
+    }
+    .sect .btn{
+        margin: 1.5em 1em 1em 17em;
+        padding: 10px;
+    }
+    #design{
+        margin-top: 6%;
+        text-shadow: 0px 30px 1px #d192eb;
+        transform: skew(20deg);
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .head{
+        text-align: center;
+        height: 60vh;
+        width: 60vw;
+        background-color: #700b97;
+        margin: auto;
+        margin-top: 3%;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px #c24af1;
+    }
+    #logo sub{
+        font-size: 1em;
+        font-family: 'Kaushan Script', cursive;
+        margin-left: 1%;
+    }
+    #logo span{
+        font-size: 1.8em;
+        text-shadow: 0 0 6px white;
+        font-family: 'Comfortaa', cursive;
+    }
+    #logo{
+        padding-top: 15%;
+    }
+    .sect .btn{
+        margin: 1.5em 1em 1em 2em;
+        padding: 10px;
+    }
+    #design{
+        margin-top: 15%;
+        text-shadow: 0px 30px 1px #d192eb;
+        transform: skew(20deg);
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+}
